@@ -2,17 +2,11 @@
 const nextConfig = {
     images: {
 
-        remotePatterns: [
-			{
-				protocol: "http",
-				hostname: "localhost",
-			},
-			{
-				protocol: "https",
-				hostname: "https://caveofassets.up.railway.app",
-            },
+        domains: [
+			'localhost',
+            'caveofassets.up.railway.app',
         ],        
     },
-};
+}
 
 export default nextConfig;
