@@ -21,11 +21,11 @@ export const PRODUCT_CATEGORIES = [
       ],
     },
     {
-      label: 'Icons',
+      label: 'Game Sprites',
       value: 'icons' as const,
       featured: [
         {
-          name: 'Favorite Icon Picks',
+          name: 'Favorite Picks',
           href: `/products?category=icons`,
           imageSrc: '/nav/icons/picks.jpg',
         },
@@ -35,7 +35,7 @@ export const PRODUCT_CATEGORIES = [
           imageSrc: '/nav/icons/new.jpg',
         },
         {
-          name: 'Bestselling Icons',
+          name: 'Bestselling Assets',
           href: '/products?category=icons',
           imageSrc: '/nav/icons/bestsellers.jpg',
         },

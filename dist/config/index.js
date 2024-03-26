@@ -24,11 +24,11 @@ exports.PRODUCT_CATEGORIES = [
         ],
     },
     {
-        label: 'Icons',
+        label: 'Game Sprites',
         value: 'icons',
         featured: [
             {
-                name: 'Favorite Icon Picks',
+                name: 'Favorite Picks',
                 href: "/products?category=icons",
                 imageSrc: '/nav/icons/picks.jpg',
             },
@@ -38,7 +38,7 @@ exports.PRODUCT_CATEGORIES = [
                 imageSrc: '/nav/icons/new.jpg',
             },
             {
-                name: 'Bestselling Icons',
+                name: 'Bestselling Assets',
                 href: '/products?category=icons',
                 imageSrc: '/nav/icons/bestsellers.jpg',
             },
